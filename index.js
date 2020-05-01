@@ -1,4 +1,3 @@
-
 function output(){    
     var form=document.forms['mform'];
     var out=document.getElementById("out");
@@ -7,7 +6,7 @@ function output(){
     var MM=form["month"].value;
     var Yr=form["year"].value;
     var CC =Yr.substring(0,2);
-    var YY=Yr.substring(2,4)
+    var YY=Yr.substring(2,4);
     CC=parseInt(CC);
     YY=parseInt(YY);
     var months=['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
