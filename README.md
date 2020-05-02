@@ -7,6 +7,7 @@ lloyd mwiti
 
 ### How to run
 just click here
+ https://lloydmwiti.github.io/MP-prep2/.
 ### Technologies used
 HTML ,java script ,CSS ,Bootstrap
 ### Contact me
