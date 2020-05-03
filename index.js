@@ -33,6 +33,7 @@ function output(){
         }
      } 
 }
+//onclick button calls the above function
 submit.addEventListener('click',() =>{
     output();
 });
