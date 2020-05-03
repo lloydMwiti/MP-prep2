@@ -7,6 +7,8 @@ function output(){
     var Yr=form["year"].value;
     var CC =Yr.substring(0,2);
     var YY=Yr.substring(2,4);
+    gender=gender.toLowerCase();
+    MM =MM.toLowerCase();
     CC=parseInt(CC);
     YY=parseInt(YY);
     var months=['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
