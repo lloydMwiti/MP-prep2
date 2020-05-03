@@ -3,6 +3,9 @@
     color: rgb(44, 44, 44);
     
 }
+h2{
+    font-weight: lighter;
+}
 form{
     font-size: 1rem;
     border-radius: .5rem;
