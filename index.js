@@ -17,7 +17,7 @@ function output(){
     
 
     if(months.includes(MM)||mon.includes(MM)){
-        var MM=mon.indexOf(MM) + 1 ;
+        var MM=(mon.indexOf(MM) || months.indexOf(MM))+1;
         var weekday=Math.floor((((CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD -3) % 7);
         weekday=Math.abs(weekday);
         if (gender=='male'){
